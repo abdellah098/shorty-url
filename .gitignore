@@ -1,24 +1,55 @@
-# Compiled class file
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# Java
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
+*.db
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Spring Boot specific
+spring-boot-devtools/
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Application configuration
+application.properties
+application.yml
+
+# IntelliJ specific project files
+.idea/.idea_modules
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dynamic.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/.idea/
+
+# Eclipse project files (optional)
+.project
+.classpath
+.settings/
+
+# Build directory for IntelliJ
+out/
+
+# Windows generated files
+Desktop.ini
